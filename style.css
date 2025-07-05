@@ -31,6 +31,21 @@ header .btn-cta {
   margin-top: 1rem;
 }
 
+.whatsapp-btn {
+  background-color: #25D366;
+  color: white;
+  padding: 12px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-left: 10px;
+  display: inline-block;
+  transition: background-color 0.3s;
+}
+
+.whatsapp-btn:hover {
+  background-color: #1ebe5d;
+}
+
 .avatar {
   border-radius: 50%;
   width: 180px;
