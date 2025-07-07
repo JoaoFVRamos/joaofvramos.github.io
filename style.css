@@ -31,19 +31,23 @@ header .btn-cta {
   margin-top: 1rem;
 }
 
-.whatsapp-btn {
-  background-color: #25D366;
-  color: white;
-  padding: 12px 20px;
-  text-decoration: none;
-  border-radius: 5px;
-  margin-left: 10px;
-  display: inline-block;
-  transition: background-color 0.3s;
+.icones-contato {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 1rem;
 }
 
-.whatsapp-btn:hover {
-  background-color: #1ebe5d;
+.botao-icone {
+  width: 48px;
+  height: 48px;
+  margin: 0 5px;
+  vertical-align: middle;
+  transition: transform 0.2s ease;
+}
+
+.botao-icone:hover {
+  transform: scale(1.1);
 }
 
 .avatar {
