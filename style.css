@@ -180,3 +180,13 @@ footer {
   font-style: italic;
   color: #555;
 }
+
+@media (max-width: 768px) {
+  .experiencia-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .experiencia-card {
+    padding: 1rem;
+  }
+}
