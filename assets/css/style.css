@@ -31,6 +31,31 @@ header .btn-cta {
   margin-top: 1rem;
 }
 
+nav ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 1rem 0 0;
+  list-style: none;
+  gap: 1rem;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0.3rem 0.6rem;
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
+  background-color: #00b4d8;
+  outline: none;
+}
+
 .icones-contato {
   display: flex;
   justify-content: center;
