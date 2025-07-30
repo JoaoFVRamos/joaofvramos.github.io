@@ -11,7 +11,7 @@ body {
   margin: 0 auto;
   padding: 1rem;
   box-sizing: border-box;
-  width: 95%;
+  width: 100%;
 }
 
 header {
@@ -150,7 +150,7 @@ footer {
   }
 
   .experiencia-card {
-    width: 95%;
+    width: 100%;
     box-sizing: border-box;
   }
 }
