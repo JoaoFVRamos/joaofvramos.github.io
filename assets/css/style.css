@@ -6,10 +6,17 @@ body {
   background: #fff;
 }
 
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 .container {
   max-width: 960px;
-  margin: auto;
+  margin: 0 auto;
   padding: 1rem;
+  box-sizing: border-box;
+  width: 100%;
 }
 
 header {
