@@ -142,6 +142,16 @@ footer {
   border-radius: 6px;
 }
 
+@media (max-width: 768px) {
+  .experiencia-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .experiencia-card {
+    width: 100%;
+  }
+}
+
 .experiencia-card h3 {
   margin-top: 0;
   font-size: 1.1rem;
@@ -206,14 +216,3 @@ footer {
   color: #555;
 }
 
-@media (max-width: 768px) {
-  .container .experiencia-grid {
-    display: grid !important;
-    grid-template-columns: 1fr !important;
-    gap: 1rem;
-  }
-
-  .experiencia-card {
-    width: 100% !important;
-  }
-}
