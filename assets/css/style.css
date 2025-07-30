@@ -151,6 +151,7 @@ footer {
 
   .experiencia-card {
     width: 95%;
+    box-sizing: border-box;
   }
 }
 
