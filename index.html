@@ -45,19 +45,22 @@
 </head>
 <body>
 
-  <nav class="navbar">
-    <div class="nav-container">
-      <div class="nav-logo">
-        João Ramos
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="nav-logo">João Ramos</div>
+
+        <div class="menu-toggle" id="mobile-menu">
+          ☰
+        </div>
+
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#experiencia">Experiência</a></li>
+          <li><a href="#formacao">Formação</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
       </div>
-      <ul class="nav-links">
-        <li><a href="#sobre">Sobre</a></li>
-        <li><a href="#servicos">Serviços</a></li>
-        <li><a href="#experiencia">Experiência</a></li>
-        <li><a href="#formacao">Formação</a></li>
-        <li><a href="#contato">Contato</a></li>
-      </ul>
-    </div>
   </nav>
 
   <header>
@@ -72,7 +75,7 @@
           <a href="https://wa.me/5518981030793" target="_blank">
             <img src="assets/img/botao-wpp.png" alt="Conversar com João Francisco Viaccava Ramos no WhatsApp" class="botao-icone" />
           </a>
-</div>
+     </div>
     </div>
   </header>
 
@@ -199,10 +202,21 @@
     </div>
   </section>
 
+<script>
+  const menuToggle = document.getElementById("mobile-menu");
+  const navLinks = document.getElementById("nav-links");
+
+  menuToggle.addEventListener("click", () => {
+    navLinks.classList.toggle("active");
+  });
+</script>
+
+
   <footer>
     <div class="container">
       <p>© João Ramos - Projetos e melhoria contínua</p>
     </div>
   </footer>
+
 </body>
 </html>
