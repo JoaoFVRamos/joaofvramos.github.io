@@ -14,6 +14,75 @@ body {
   width: 100%;
 }
 
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #ffffff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 999;
+}
+
+.nav-container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0.8rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-logo {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #0077b6;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  padding: 0.4rem 0.6rem;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-links li a:hover {
+  background-color: #0077b6;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .nav-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    width: 100%;
+    margin-top: 0.5rem;
+  }
+
+  .nav-links li a {
+    padding: 0.6rem 1rem;
+    display: block;
+    width: 100%;
+  }
+}
+
+body {
+  padding-top: 60px; /* evita sobreposição do conteúdo pelo menu */
+}
+
 header {
   background: #0077b6;
   color: white;
