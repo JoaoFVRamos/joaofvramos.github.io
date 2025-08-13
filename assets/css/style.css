@@ -1,9 +1,15 @@
+/* Importar fontes */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Adobe+Garamond+Pro:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;600&display=swap');
+
 body {
   margin: 0;
-  font-family: 'Segoe UI', sans-serif;
+  font-family: 'Montserrat', 'Segoe UI', sans-serif;
   line-height: 1.6;
-  color: #333;
-  background: #fff;
+  color: #2b2b2b;
+  background-color: #D5E3E1;
+  padding-top: 60px;
 }
 
 .container {
@@ -18,7 +24,7 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: #ffffff;
+  background-color: #D5E3E1;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   z-index: 999;
 }
@@ -32,17 +38,15 @@ body {
   align-items: center;
 }
 
-.nav-logo {
-  font-weight: bold;
-  font-size: 1.2rem;
-  color: #0077b6;
+.nav-logo img {
+  height: 50px;
 }
 
 .menu-toggle {
   display: none;
   font-size: 1.6rem;
   cursor: pointer;
-  color: #0077b6;
+  color: #2b2b2b;
 }
 
 .nav-links {
@@ -55,15 +59,16 @@ body {
 
 .nav-links li a {
   text-decoration: none;
-  color: #333;
+  color: #2b2b2b;
   font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
   padding: 0.4rem 0.6rem;
   border-radius: 4px;
   transition: background-color 0.3s ease;
 }
 
 .nav-links li a:hover {
-  background-color: #0077b6;
+  background-color: #2b2b2b;
   color: white;
 }
 
@@ -96,19 +101,16 @@ body {
   }
 }
 
-body {
-  padding-top: 60px;
-}
-
 header {
-  background: #0077b6;
-  color: white;
+  background: linear-gradient(180deg, #D5E3E1, #c5d3d1);
+  color: #2b2b2b;
   text-align: center;
   padding: 3rem 1rem;
+  font-family: 'Adobe Garamond Pro', serif;
 }
 
 header .btn-cta {
-  background: #00b4d8;
+  background: #2b2b2b;
   padding: 0.8rem 1.5rem;
   border: none;
   color: white;
@@ -117,6 +119,12 @@ header .btn-cta {
   text-decoration: none;
   display: inline-block;
   margin-top: 1rem;
+}
+
+header h1 {
+  font-family: 'Adobe Garamond Pro', serif;
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
 }
 
 nav ul {
@@ -130,7 +138,7 @@ nav ul {
 }
 
 nav ul li a {
-  color: #fff;
+  color: #2b2b2b;
   text-decoration: none;
   font-weight: bold;
   padding: 0.3rem 0.6rem;
@@ -140,7 +148,8 @@ nav ul li a {
 
 nav ul li a:hover,
 nav ul li a:focus {
-  background-color: #00b4d8;
+  background-color: #2b2b2b;
+  color: white;
   outline: none;
 }
 
@@ -173,11 +182,11 @@ section {
 }
 
 #servicos {
-  background-color: #f0f4f8;
+  background-color: #e8f0ee;
 }
 
 #experiencia {
-  background-color: #f5f1eb;
+  background-color: #f3efea;
 }
 
 .grid {
@@ -196,12 +205,13 @@ form textarea {
   width: 100%;
   padding: 0.7rem;
   margin-bottom: 1rem;
-  border: 1px solid #ccc;
+  border: 1px solid #bbb;
   border-radius: 4px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 form button {
-  background: #0077b6;
+  background: #2b2b2b;
   color: white;
   border: none;
   padding: 0.8rem 1.2rem;
@@ -210,10 +220,11 @@ form button {
 }
 
 footer {
-  background: #eee;
+  background: #c5d3d1;
   text-align: center;
   padding: 1rem;
   font-size: 0.9rem;
+  color: #2b2b2b;
 }
 
 .experiencia-grid {
@@ -224,7 +235,7 @@ footer {
 
 .experiencia-card {
   background: #fff;
-  border-left: 4px solid #0077b6;
+  border-left: 4px solid #2b2b2b;
   padding: 1rem;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
   border-radius: 6px;
@@ -244,7 +255,8 @@ footer {
 .experiencia-card h3 {
   margin-top: 0;
   font-size: 1.1rem;
-  color: #0077b6;
+  font-family: 'Adobe Garamond Pro', serif;
+  color: #2b2b2b;
 }
 
 .experiencia-card span {
@@ -254,7 +266,7 @@ footer {
 }
 
 #formacao {
-  background-color: #f0f4f8;
+  background-color: #e8f0ee;
   padding: 2rem 0;
 }
 
@@ -265,8 +277,9 @@ footer {
 .formacao-titulo-grupo {
   font-size: 1.2rem;
   margin-bottom: 1rem;
-  color: #0077b6;
-  border-bottom: 2px solid #0077b6;
+  font-family: 'Adobe Garamond Pro', serif;
+  color: #2b2b2b;
+  border-bottom: 2px solid #2b2b2b;
   padding-bottom: 0.3rem;
 }
 
@@ -279,7 +292,7 @@ footer {
 .formacao-item {
   background: #fff;
   padding: 1rem;
-  border-left: 4px solid #0077b6;
+  border-left: 4px solid #2b2b2b;
   border-radius: 6px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.05);
 }
@@ -287,7 +300,8 @@ footer {
 .formacao-item h4 {
   margin: 0;
   font-size: 1.05rem;
-  color: #0077b6;
+  font-family: 'Adobe Garamond Pro', serif;
+  color: #2b2b2b;
 }
 
 .formacao-item p {
@@ -296,7 +310,7 @@ footer {
 }
 
 .formacao-item.destaque {
-  border-left-color: #00b4d8;
+  border-left-color: #4a4a4a;
   font-weight: bold;
 }
 
@@ -304,4 +318,3 @@ footer {
   font-style: italic;
   color: #555;
 }
-
