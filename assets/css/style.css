@@ -25,7 +25,7 @@ body {
   top: 0;
   width: 100%;
   background-color: #D5E3E1;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.623);
   z-index: 999;
 }
 
@@ -46,7 +46,7 @@ body {
   display: none;
   font-size: 1.6rem;
   cursor: pointer;
-  color: #2b2b2b;
+  color: #083C4F;
 }
 
 .nav-links {
@@ -68,7 +68,7 @@ body {
 }
 
 .nav-links li a:hover {
-  background-color: #2b2b2b;
+  background-color: #083C4F;
   color: white;
 }
 
